@@ -21,7 +21,7 @@ public class DemoController {
     public String greet(String name) {
         Map m = new LinkedHashMap();
         m.put("name", name);
-        return helloClient.greet(m);
+        return helloClient.helloworld(m);
     }
 }
 
