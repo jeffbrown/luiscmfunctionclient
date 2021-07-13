@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: luiscmfunctionclient
+aws:
+  lambda:
+    functions:
+      helloworld: {}
+    region: us-east-2
+  accessKeyId: accessKeyGoesHere
+  secretKey: secretKeyGoesHere
